@@ -17,11 +17,13 @@ Password: kashictf
 
 Open FTK imager, go to file > add evidence item > Image File > "select the .vdi file"  
 
-As the description is saying, I explored the .vdi file. And found out that the flag is in parts.
+As the description says, I explored the .vdi file. I found out that the flag is in parts.
 
 ![alt text](image.png)
 
-Once I found that. I perform a Search with "fLaG Part" as key word. For example, "fLaG Part 1:". 
-PS: Remember to do it in the folder [root]. Otherwise it'll take too long for searching.
+Once I found that. I perform a Search with "fLaG Part" as keyword. For example, "fLaG Part 1:". 
+PS: Remember to do it in the folder [root]. Otherwise, it'll take too long to search.
 
 ![alt text](image_1.png)
+
+Through this, we can find every parts of the flag.
