@@ -9,7 +9,7 @@ A collection of images, a digital time capsule—preserved in this file. But is 
 
 The file *chall* is a DOS/MBR boot sector MS-MBR Windows 7 english.
 
-I used FTK imager and found out that 4 images are hidding behind them.
+I used FTK imager and found out that 4 txt file are hidding behind them.
 For more details look into **Alternate Data Streams (ADS)**
 
 ![alt text](image.png)
