@@ -21,7 +21,7 @@ As the description is saying, I explored the .vdi file. And found out that the f
 
 ![alt text](image.png)
 
-Once I found that. I perform a Search with "FlaG part" as key word. For example, "FlaG part 1:". 
+Once I found that. I perform a Search with "fLaG Part" as key word. For example, "fLaG Part 1:". 
 PS: Remember to do it in the folder [root]. Otherwise it'll take too long for searching.
 
 ![alt text](image_1.png)
