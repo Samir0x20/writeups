@@ -8,7 +8,7 @@ Flag format: KashiCTF{com.example.pacage.name}
 
 There is a package with a suspicious name. We can guess that it's an installed app and it's not coming from legitimate package.  
 
-*bmmevents.txt* also helped to find the suspicious package.
+*bmmevents.txt* also helped me to find the suspicious package.
 
 **Name of the suspicious package:** com.google.calendar.android 
 
