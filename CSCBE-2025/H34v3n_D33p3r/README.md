@@ -35,7 +35,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 256854        0x3EB56         ELF, 64-bit LSB shared object, AMD x86-64, version 1 (SYSV)
 ```
 
-We can see a shared object (.so) hidden. I used this commandto extract this shared object: `dd if=65ab3g89k of=libl98745.so bs=1 skip=256854`
+We can see that a shared object (.so) is hidden. I used this commandto extract this shared object: `dd if=65ab3g89k of=libl98745.so bs=1 skip=256854`
 
 After reversing engineering both files, libl98745.so and wzky, using ghidra. We have 2 possibilities to get the flag. The first one is to satisfy all conditions from **wzky** or call the function decrypting the flag from **libl98745.so**.
 
