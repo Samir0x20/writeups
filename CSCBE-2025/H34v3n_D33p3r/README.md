@@ -53,10 +53,8 @@ int main() {
         return 1;
     }
 
-    // Get the function pointer for the mangled name
     void (*asio_nsense)(void) = (void (*)(void))dlsym(handle, "_Z11asio_nsensev");
 
-    // Check for errors
     char *error = dlerror();
     if (error != NULL) {
         fprintf(stderr, "Error finding symbol: %s\n", error);
@@ -64,11 +62,9 @@ int main() {
         return 1;
     }
 
-    // Call the function
-    printf("Calling asio_nsense...\n");
+    printf("Calling asio_nsense\n");
     asio_nsense();
 
-    // Close the library
     dlclose(handle);
     return 0;
 }
